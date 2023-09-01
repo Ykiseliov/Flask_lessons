@@ -1,0 +1,10 @@
+{% extends "base_template.html" %}
+
+{% block content %}
+    <section class="product">
+        <h2>{{ product.name }}</h2>
+        <img src="{{ product.image }}" alt="{{ product.name }}">
+        <p>Цена: {{ product.price }} рублей</p>
+        <p>Описание: {{ product.description }}</p>
+    </section>
+{% endblock %}
