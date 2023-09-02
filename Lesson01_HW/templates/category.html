@@ -1,18 +1,16 @@
-{% extends "base_template.html" %}
+{% extends "base.html" %}
+
+{% block title %}
+Категории
+{% endblock %}
 
 {% block content %}
-    <section class="category">
-        <h2>���������: {{ category_name }}</h2>
-        <ul class="product-list">
-            {% for product in products %}
-                <li>
-                    <a href="/products/{{ product.id }}">
-                        <img src="{{ product.image }}" alt="{{ product.name }}">
-                        <h3>{{ product.name }}</h3>
-                        <p>����: {{ product.price }} ������</p>
-                    </a>
-                </li>
-            {% endfor %}
-        </ul>
-    </section>
+    <h2>Категории товаров</h2>
+    <ul>
+        <li><a href="/clothing">Одежда</a></li>
+        <li><a href="/shoes">Обувь</a></li>
+        <li><a href="/jacket">Куртки</a></li>
+    </ul>
 {% endblock %}
+
+
