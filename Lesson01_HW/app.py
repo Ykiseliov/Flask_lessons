@@ -1,27 +1,27 @@
 # -*- coding: utf-8 -*-
-from flask import Flask, render_template
+from flask import Flask, render_template, url_for
 
 app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return render_template('base.html')
+    return render_template('index.html')
 
 @app.route('/category')
 def category():
     return render_template('category.html')
 
-@app.route('/clothing')
+@app.route('/products/clothing')
 def clothing():
-    return render_template('clothing.html')
+    return render_template('/products/clothing.html')
 
-@app.route('/shoes')
+@app.route('/products/shoes')
 def shoes():
-    return render_template('shoes.html')
+    return render_template('/products/shoes.html')
 
-@app.route('/jacket')
+@app.route('/products/jacket')
 def jacket():
-    return render_template('jacket.html')
+    return render_template('/products/jacket.html')
 
 @app.route('/about')
 def about():
