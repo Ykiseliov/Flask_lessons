@@ -4,16 +4,67 @@
 {% endblock %}
 
 {% block content%}
+<div class="container">
 <div class="welcome" align="center">
     <h1>
-Добро пожаловать в интернет магазин!
+    Добро пожаловать в интернет магазин!
         </h1>
 </div>
 <div class="text", align="center">
     <h3>
-        <li>Брендовая одежда, одежда, обувь</li>
-        <li>мировых производителей</li>
-        <li>по доступным ценам</li>
+        Брендовая одежда, куртки, обувь
+        мировых производителей
+       по доступным ценам
     </h3>
     </div>
+
+<div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Одежда</h4>
+          </div>
+          <div class="card-body">
+                <ul class="list-unstyled mt-3 mb-4">
+              <li>Брендовая одежда</li>
+              <li>мировых производителей</li>
+              <li>по доступным ценам</li>
+              <li></li>
+            </ul>
+            <a href="/products/clothing"><button type="button" class="w-50 btn btn-lg btn-primary">Выбрать</button></a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Куртки</h4>
+          </div>
+          <div class="card-body">
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Брендовые куртки</li>
+              <li>мировых производителей</li>
+              <li>по доступным ценам</li>
+            </ul>
+           <a href="/products/jacket"><button type="button" class="w-50 btn btn-lg btn-primary">Выбрать</button></a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Обувь</h4>
+          </div>
+          <div class="card-body">
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Брендовая обувь</li>
+              <li>мировых производителей</li>
+              <li>по доступным ценам</li>
+            </ul>
+            <a href="/products/shoes"><button type="button" class="w-50 btn btn-lg btn-primary">Выбрать</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
 {% endblock %}
