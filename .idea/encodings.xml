@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/../Tested/Flask/Lesson01_HW/app.py" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../Tested/Flask/Lesson01_HW/templates/category.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Tested/Flask/L01/app.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Tested/Flask/L01/templates/category.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../Tested/Flask_lessons/Lesson01_HW/app.py" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/../Tested/Flask_lessons/Lesson01_HW/templates/base.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../Tested/Flask_lessons/Lesson01_HW/templates/category.html" charset="windows-1251" />
